@@ -1,0 +1,16 @@
+---
+name: mobile-banking-api-v1
+description: This is a sample API used to illustrate the tooling around an API-first
+  approach.
+basePath: /accounts
+openApiSpec: mobile-banking-api-v1.yaml
+authMethod: Bearer
+spikeArrest:
+  identifier: 612610789
+  ref: 500pm
+schemes:
+- "https,2wayssl"
+target:
+  ssl:
+    trustStore: APIGW Trust Store
+    clientAuth: false
